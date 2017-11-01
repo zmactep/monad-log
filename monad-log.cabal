@@ -1,5 +1,5 @@
 name:                monad-log
-version:             0.1.1.0
+version:             0.1.1.1
 synopsis:            A simple and fast logging monad
 description:         
     This package provide a mtl style `MonadLog` class and a concrete monad transformer `LogT`, the main difference between this package and monad-logger are:
@@ -25,7 +25,7 @@ description:
 license:             MIT
 license-file:        LICENSE
 author:              winterland1989
-maintainer:          winterland1989@gmail.com
+maintainer:          pavel@yakovlev.me
 -- copyright:           
 category:            Development
 build-type:          Simple
@@ -58,4 +58,4 @@ library
 
 source-repository head
   type:                 git
-  location:             https://github.com/winterland1989/monad-log
+  location:             https://github.com/zmactep/monad-log
