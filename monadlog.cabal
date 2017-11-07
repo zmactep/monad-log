@@ -59,4 +59,4 @@ library
 
 source-repository head
   type:                 git
-  location:             https://github.com/zmactep/monad-log
+  location:             https://github.com/zmactep/monadlog
