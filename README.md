@@ -1,10 +1,12 @@
 A fast & simple logging monad
 =============================
 
-[![Hackage](https://img.shields.io/hackage/v/monad-log.svg?style=flat-square)](http://hackage.haskell.org/package/monad-log)
-[![Travis-CI](https://travis-ci.org/zmactep/monad-log.svg?style=flat-square)](https://travis-ci.org/zmactep/monad-log)
+[![Hackage](https://img.shields.io/hackage/v/monadlog.svg?style=flat-square)](http://hackage.haskell.org/package/monadlog)
+[![Travis-CI](https://travis-ci.org/zmactep/monadlog.svg?style=flat-square)](https://travis-ci.org/zmactep/monadlog)
 
-This package provide a mtl style `MonadLog` class and a concrete monad transformer `LogT`, the main difference between this package and monad-logger are:
+This package is a fork of great `monad-log`, as the original author is unreachable.
+
+It provides a mtl style `MonadLog` class and a concrete monad transformer `LogT`, the main difference between this package and monad-logger are:
 
 + Base monad has to be an instance of `MonadIO`.
 
