@@ -1,5 +1,5 @@
 name:                monadlog
-version:             0.1.1.1
+version:             0.1.1.2
 synopsis:            A simple and fast logging monad
 description:         
     This package is a fork of great `monad-log`, as the original author is unreachable.
@@ -51,7 +51,7 @@ library
                     ,   text
                     ,   text-show
                     ,   transformers >=0.2
-                    ,   aeson        >= 0.4 && <1.2.4
+                    ,   aeson        >= 0.4 && <1.5
                     ,   template-haskell 
 
   -- hs-source-dirs:      
